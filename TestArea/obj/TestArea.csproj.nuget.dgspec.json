@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ResearchPlace\\TestArea\\TestArea\\TestArea\\TestArea.csproj": {}
+    "F:\\ResearchPlace\\TestArea\\CSharpTestArea\\TestArea\\TestArea.csproj": {}
   },
   "projects": {
-    "F:\\ResearchPlace\\TestArea\\TestArea\\TestArea\\TestArea.csproj": {
+    "F:\\ResearchPlace\\TestArea\\CSharpTestArea\\TestArea\\TestArea.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ResearchPlace\\TestArea\\TestArea\\TestArea\\TestArea.csproj",
+        "projectUniqueName": "F:\\ResearchPlace\\TestArea\\CSharpTestArea\\TestArea\\TestArea.csproj",
         "projectName": "TestArea",
-        "projectPath": "F:\\ResearchPlace\\TestArea\\TestArea\\TestArea\\TestArea.csproj",
+        "projectPath": "F:\\ResearchPlace\\TestArea\\CSharpTestArea\\TestArea\\TestArea.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\ResearchPlace\\TestArea\\TestArea\\TestArea\\obj\\",
+        "outputPath": "F:\\ResearchPlace\\TestArea\\CSharpTestArea\\TestArea\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

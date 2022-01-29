@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IWNgKGunWMlQXmsg69f9IAjXaXg8MSiw0BMnDWD38JL/3cGBH+q3f8T1RODddggJVMQjPzOVOtTD5mqecHl5tQ==",
+  "dgSpecHash": "nETpCpsxkt9sdnH98EbQ/v612msMzeVMgkZqZG4Qi1ftXDaKqU5+zZIh2SV9WrCvZMvVfUfdOfzKa4J74CBuRg==",
   "success": true,
-  "projectFilePath": "F:\\ResearchPlace\\TestArea\\TestArea\\TestArea\\TestArea.csproj",
+  "projectFilePath": "F:\\ResearchPlace\\TestArea\\CSharpTestArea\\TestArea\\TestArea.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
