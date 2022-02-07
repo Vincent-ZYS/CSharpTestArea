@@ -32,12 +32,18 @@ namespace TestArea
 
             //Simple_Test
             //SimpleTest.TestMethod01();
-            SimpleTest.TestMethod02();
+            //SimpleTest.TestMethod03();
+
+            PlayGround pg = new PlayGround();
+            pg.Run(1, 2);
+            ExpressionTool et = new ExpressionTool(pg,"Run");
         }
     }
 
     class SimpleTest
     {
+        public const int ii = 0;
+
         /// <summary>
         /// Reflection Test by using Type & GetMethod
         /// </summary>
@@ -58,6 +64,31 @@ namespace TestArea
             Console.WriteLine(convertExpr.ToString());
 
             Console.WriteLine(Expression.Lambda<Func<Int16>>(convertExpr).Compile()());
+        }
+
+        /// <summary>
+        /// 下面的代码示例演示如何创建表示常数值的表达式
+        /// </summary>
+        public static void TestMethod03()
+        {
+            // Add the following directive to your file:
+            // using System.Linq.Expressions;
+
+            // This expression represents a Constant value.
+            Expression constantExpr = Expression.Constant(5.5);
+
+            // Print out the expression.
+            Console.WriteLine(constantExpr.ToString());
+
+            // You can also use variables.
+            double num = 3.5;
+            constantExpr = Expression.Constant(num);
+            Console.WriteLine(constantExpr.ToString());
+
+            // This code example produces the following output:
+            //
+            // 5.5
+            // 3.5
         }
     }
 }
